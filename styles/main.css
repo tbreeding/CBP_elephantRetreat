@@ -1,10 +1,47 @@
- Volume in drive C has no label.
- Volume Serial Number is 28C7-DB42
 
- Directory of C:\Users\timbr\OneDrive\Documents\Coding\BootCampProjects\CBP_elephantRetreat\styles
-
-04/27/2018  09:11 AM    <DIR>          .
-04/27/2018  09:11 AM    <DIR>          ..
-04/27/2018  09:11 AM                 0 main.css
-               1 File(s)              0 bytes
-               2 Dir(s)  258,047,115,264 bytes free
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-family: 'Open Sans';
+    margin: 0;
+}
+.container {
+    width: 730px;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 39px;
+}
+img {
+    height: 180px;
+}
+h1 {
+    width: 608px;
+    padding: 12px 40px;
+    background-color: #FF8F8F;
+    text-align: center;
+}
+h2 {
+    color: #FF8F8F;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.sub {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: black;
+    padding: 10px 50px;
+}
+.column p {
+    padding: 0 20px;
+    font-size: 1.1rem;
+}
